@@ -5,6 +5,7 @@ Library for showing dialogs to chose files, based off of the OpenFileDialog from
 # How to add to your project
 
 Download `libfiledialog.h` from this project and place it in your project directory.
+Download `libfiledialog.dylib` from this project and place it in `$THEOS/lib`.
 
 In your Makefile, simply add it to your libraries. Here is a sample Makefile:
 
