@@ -2,6 +2,12 @@
 
 Library for showing dialogs to chose files, based off of the OpenFileDialog from Windows.
 
+# Preview
+
+libfiledialog has two themes, light and dark. Here are the previews:
+
+![Light theme](https://raw.githubusercontent.com/qwertyuiop1379/libfiledialog/master/Assets/light.png) ![Dark theme](https://raw.githubusercontent.com/qwertyuiop1379/libfiledialog/master/Assets/dark.png)
+
 # How to add to your project
 
 Download `libfiledialog.h` from this project and place it in your project directory.
@@ -29,12 +35,6 @@ You're done!
 # How to use
 
 See `ExampleTweak.xm` for information on how to use.
-
-# Preview
-
-libfiledialog has two themes, light and dark. Here are the previews:
-
-![Light theme](https://raw.githubusercontent.com/qwertyuiop1379/libfiledialog/master/Assets/light.png) ![Dark theme](https://raw.githubusercontent.com/qwertyuiop1379/libfiledialog/master/Assets/dark.png)
 
 # How to use the filter
 
