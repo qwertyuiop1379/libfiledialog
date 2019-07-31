@@ -8,6 +8,8 @@ libfiledialog has two themes, light and dark. Here are the previews:
 
 ![Light theme](https://raw.githubusercontent.com/qwertyuiop1379/libfiledialog/master/Assets/light.png) ![Dark theme](https://raw.githubusercontent.com/qwertyuiop1379/libfiledialog/master/Assets/dark.png)
 
+Yes, I'm aware the text box is white, I'm not entirely sure how to fix that but I will eventually.
+
 # How to add to your project
 
 Download `libfiledialog.h` from this project and place it in your project directory.
