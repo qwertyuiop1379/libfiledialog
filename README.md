@@ -44,7 +44,7 @@ The filter is based off OpenFileDialog. Each file type should be an item in an a
 `dialog.filter = @[ @"All files (*.*)|*.*", @"Text files (*.txt)|*.txt" ];`
 Each file type is a string in an array.
 
-The `|` is the separator between two values. On the left of the separator is the text that will be displayed. In this case, the text "All files (*.*)" will be displayed. On the right side is the actual filter to apply. Since it's just *.*, every file will be shown.
+The `|` is the separator between two values. On the left of the separator is the text that will be displayed. In this case, the text `All files (*.*)` will be displayed. On the right side is the actual filter to apply. Since it's just `*.*`, every file will be shown.
 
 You could do something like `@"This one file|somefile.mm"` and the dialog would only show files named "somefile.mm".
 
