@@ -9,7 +9,7 @@
     // initialize our dialog
     FileDialogController *dialog = [[FileDialogController alloc] init];
 
-    // this means the dialog will start off in this directory. if blank, will be root by default.
+    // this means the dialog will start off in this directory. defaults to root
     dialog.location = [NSURL fileURLWithPath:@"/var/mobile"];
 
     // see readme.md for information on how to use filter
