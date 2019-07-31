@@ -1,0 +1,9 @@
+Package: com.qiop1379.libfiledialog
+Name: libfiledialog
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: An library to select files. Very heavily based off of Windows' FileDialog.
+Maintainer: qwertyuiop1379 <thoffman8839@gmail.com>
+Author: qwertyuiop1379 <thoffman8839@gmail.com>
+Section: System
+Tag: role::developer
