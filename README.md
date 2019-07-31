@@ -8,16 +8,18 @@ Download `libfiledialog.h` from this project and place it in your project direct
 
 In your Makefile, simply add it to your libraries. Here is a sample Makefile:
 
-    include $(THEOS)/makefiles/common.mk
+```makefile
+include $(THEOS)/makefiles/common.mk
 
-    TWEAK_NAME = SomeTweak
-    SomeTweak_FILES = Tweak.xm
-    SomeTweak_LIBRARIES = filedialog
+TWEAK_NAME = SomeTweak
+SomeTweak_FILES = Tweak.xm
+SomeTweak_LIBRARIES = filedialog
 
-    include $(THEOS_MAKE_PATH)/tweak.mk
+include $(THEOS_MAKE_PATH)/tweak.mk
 
-    after-install::
-      install.exec "killall -9 SpringBoard"
+after-install::
+    install.exec "killall -9 SpringBoard"
+```
       
 After you have done that, in your Tweak.xm or whichever file, add the line `#import "libfiledialog.h"` at the top.
 
