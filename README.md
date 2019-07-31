@@ -13,6 +13,7 @@ Yes, I'm aware the text box is white, I'm not entirely sure how to fix that but 
 # How to add to your project
 
 Download `libfiledialog.h` from this project and place it in your project directory.
+
 Download `libfiledialog.dylib` from this project and place it in `$THEOS/lib`.
 
 In your Makefile, simply add it to your libraries. Here is a sample Makefile:
