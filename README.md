@@ -33,7 +33,7 @@ See `ExampleTweak.xm` for information on how to use.
 
 libfiledialog has two themes, light and dark. Here are the previews:
 
-![Light theme](https://raw.githubusercontent.com/qwertyuiop1379/libfiledialog/master/light.png) ![Dark theme](https://raw.githubusercontent.com/qwertyuiop1379/libfiledialog/master/dark.png)
+![Light theme](https://raw.githubusercontent.com/qwertyuiop1379/libfiledialog/master/Assets/light.png) ![Dark theme](https://raw.githubusercontent.com/qwertyuiop1379/libfiledialog/master/Assets/dark.png)
 
 # How to use the filter
 
