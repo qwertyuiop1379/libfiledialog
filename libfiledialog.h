@@ -4,7 +4,7 @@ typedef enum {
     DialogResultCancel
 } DialogResult;
 
-@interface FileDialogController : UIViewController <UITableViewDataSource, UITableViewDelegate, UIPickerViewDataSource, UIPickerViewDelegate>
+@interface FileDialogController : UIViewController <UITextFieldDelegate, UITableViewDataSource, UITableViewDelegate, UIPickerViewDataSource, UIPickerViewDelegate>
 @property (nonatomic, retain) NSURL *location;
 @property (nonatomic, retain) NSArray <NSString *> *filter;
 @property (nonatomic) BOOL showHiddenFiles;
